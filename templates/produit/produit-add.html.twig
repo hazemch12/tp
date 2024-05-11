@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Add Produit{% endblock %}
+
+{% block body %}
+<form>
+    <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Nom</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
+    </div>
+    <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Disc</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary">ADD</button>
+</form>
+{% endblock %}

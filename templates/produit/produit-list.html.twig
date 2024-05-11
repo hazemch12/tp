@@ -1,0 +1,46 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}list produit{% endblock %}
+
+{% block body %}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Disc</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Nom1</td>
+      <td>Disc1</td>
+      <td>
+      <button type="button" class="btn btn-success">Edit</button>
+      <button type="button" class="btn btn-danger">Delete</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+       <td>Nom1</td>
+      <td>Disc1</td>
+      <td>
+       <button type="button" class="btn btn-success">Edit</button>
+      <button type="button" class="btn btn-danger">Delete</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+       <td>Nom1</td>
+      <td>Disc1</td>
+      <td> 
+      <button type="button" class="btn btn-success">Edit</button>
+      <button type="button" class="btn btn-danger">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}
